@@ -6,7 +6,8 @@ export const gameStyle = {
   backgroundColor: '#B8FFF9',
 };
 export const headerStyle = {
-    gridColumn: '1 / 6',
+    gridColumn: '1 / end',
+    width: '100%',
     gridRow: '1',
     backgroundColor: '#0AA1DD',
     color: '#001D6E',
@@ -20,12 +21,12 @@ export const boardStyle = {
     display: 'grid',
     gridColumn: '2 / 3',
     gridRow: '2 / 3',
-    gridTemplate: 'repeat(3, 1fr) / repeat(3, 1fr)'
+    gridTemplate: 'repeat(3, 1fr) / repeat(3, 1fr)',
 }
 export const historyStyle = {
     color: '#001D6E',
     margin: '0 10px',
-    width: '200px',
+    whiteSpace: 'nowrap',
     gridColumn: '3 / 4',
     gridRow: '2 / 3',
 }
